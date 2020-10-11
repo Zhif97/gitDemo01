@@ -42,12 +42,14 @@
 
 ## 上传到 GitHub/gitee
 
-- 删除远程关联库名：git remote rm origin
+- 删除远程关联库名：git remote rm 远程仓库名
 - 指定 GitHub 仓库：git remote add origin 仓库地址
 - 初次关联远程仓库：git push -u origin master
 - 更新远程仓库：git push origin master
 
 ## 同步更新到 GitHub/gitee
+
+### 关联远程库
 
 - 关联 GitHub 的远程库：git remote add github 仓库地址
 - 关联码云的远程库：git remote add gitee 仓库地址
@@ -62,11 +64,11 @@ url = git@github.com:chloneda/demo.git
 url = git@gitee.com:chloneda/demo.git
 	fetch = +refs/heads/*:refs/remotes/gitee/* -->
 
-## 远程库信息
+### 远程库信息
 
 - 查看远程库信息：git remote -v
 
-## 提交到 GitHub/gitee
+### 提交到 GitHub/gitee
 
 -- GitHub：git push github master
 -- Gitee：git push gitee master
