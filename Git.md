@@ -34,7 +34,11 @@
 - 切换已存在分支：git switch master
 - 将某分支合并到 master 分支：git merge a1
 
-`遇到多分支开发：先合并 a1 到 master 后再合并 a2 到 master,如果遇到冲突，先回滚到前一个版本，再切换 a2 分支。 然后将 master 合并到 a2 进行修正`
+```
+遇到多分支开发：先合并 a1 到 master 后再合并 a2 到 master;
+如果遇到冲突，先回滚到前一个版本，再切换 a2 分支。
+然后将 master 合并到 a2 进行修正
+```
 
 ## 上传到 GitHub/gitee
 
