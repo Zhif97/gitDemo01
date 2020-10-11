@@ -14,8 +14,12 @@
 ```
 1.Beautify:格式化代码-html ,js,css
 2.Prettier:格式化代码-JavaScript / TypeScript / CSS
-3.安装Prettier后在vscode设置保存后自动格式化：点击设置，在搜索框输入Format，找到：Editor: Format On Save，将复选框踢√
 ```
+
+- ★ 安装 Prettier 后在 vscode 设置保存后自动格式化：点击设置
+  ![点击设置](img/1.png)<br />
+  在搜索框输入 Format 或者 save，找到：Editor: Format On Save，将复选框踢 √<br /><br />
+  ![搜索save，然后踢√](img/2.png)
 
 ### 前端开发常用插件
 
